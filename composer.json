@@ -1,0 +1,20 @@
+{
+    "name": "jsefton/php-dotenv-parser",
+    "type": "library",
+    "description": "Allows you get .env file as array and convert array back to .env file",
+    "keywords": ["dotenv","php","parser","env", "array-env"],
+    "homepage": "https://github.com/jsefton/php-dotenv-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jamie Sefton",
+            "email": "info@jamie-sefton.co.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Jsefton": "src"
+        }
+    }
+}
