@@ -21,11 +21,11 @@ composer require jsefton/php-dotenv-parser
 To parse a `.env` file to an array pass in the path like below:
 
 ```php
-$env = Parser::envToArray('/path/to/.env');
+$env = \Jsefton\DotEnv\Parser::envToArray('/path/to/.env');
 ```
 
 To store an array into a `.env` file pass the array along with the path to store it:
 
 ```php
-Parser::arrayToEnv($array, '/path/to/.env');
+\Jsefton\DotEnv\Parser::arrayToEnv($array, '/path/to/.env');
 ```
