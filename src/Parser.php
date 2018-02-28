@@ -1,5 +1,5 @@
 <?php
-namespace Jsefton\DotEnv;
+namespace JSefton\DotEnv;
 
 class Parser {
 
